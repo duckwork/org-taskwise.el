@@ -1,5 +1,5 @@
 #+Title: taskwise
-#+author; Case Duckworth
+#+author: Case Duckworth
 
 * why?
 
