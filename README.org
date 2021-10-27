@@ -1,0 +1,25 @@
+#+Title: taskwise
+#+author; Case Duckworth
+
+* why?
+
+I do a lot of writing at my job.  I organize the different articles and blogs I
+write by using tasks, but within those tasks I still have headers and such.  So
+just narrowing to subtree, clocking in, or marking something as done is just
+... weird when I'm deep within an article and want to do those things.
+
+This package attempts to mitigate some of those issues by adding functions to
+act on task headings only.  This is like, very alpha.
+
+* license
+
+This project, like all my projects, is licensed under the Good Choices License:
+
+#+begin_example
+Everyone is permitted to do whatever with this software, without
+limitation.  This software comes without any warranty whatsoever,
+but with two pieces of advice:
+
+- Be kind to yourself.
+- Make good choices.
+#+end_example
