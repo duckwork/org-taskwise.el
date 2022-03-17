@@ -36,12 +36,14 @@ point before the first headline or at point-min."
             (goto-char (point-min)))
       (unless (= (point) (point-min)) (goto-char (point-min))))))
 
+;;;###autoload
 (defun org-taskwise-upto-task ()
   "Go to the heading of the current task."
   (interactive)
   (while (not (org-get-todo-state))
     (org-taskwise--org-up-heading-or-point-min)))
 
+;;;###autoload
 (defun org-taskwise-narrow-to-task ()
   "Narrow the buffer to current task."
   (interactive)
@@ -49,6 +51,7 @@ point before the first headline or at point-min."
     (org-taskwise-upto-task)
     (org-narrow-to-subtree)))
 
+;;;###autoload
 (defun org-taskwise-task-clock-in (&optional select start-time)
   "Start the clock on the current task.
 SELECT and START-TIME, if provided, are passed on to
